@@ -1,0 +1,8 @@
+HUN:
+A projekt célja hogy egy átlagos háztartásban csőtörés esetén a rendszer automatikusan lekapcsolja a fő vízelzáró csapot hogy meggátolja a további víz szivárgását. Ehhez legalább két különálló egységre van szükség és egy közös hálozatot is biztosítani kell amelyen keresztül kommunikálnak. Az energiaellátása mindkét egységnek hálozati 220V. 
+A egység: Feladata a fő vízelzáró csap lekapcsolása csőtörés esetén.
+B egység: Feladata hogy érzékelje a víz jelenlétét. Helyes kihelyezése külcsfontosságú a rendszer működéséhez. 
+A fő változó a rendszerben (amely háztartásonkként eltérhet) hogy hogyan lehet működtetni a főelzáró csapot. Feltéve hogy a főelzáró csapot lehet működtetni egy 220-as reléről, két módozata lehet a dolognak:
+1. A főelzáró akkor van nyitott (van víz a házban) állapotban ha kap áramot, és zártban (nincs víz a házban) ha nem kap áramot
+2. A főelzáró akkor van nyitott (van víz a házban) állapotban ha nem kap áramot, és zártban (nincs víz a házban) ha kap áramot
+Mindenképpen úgy kell megcsinálni a rendszert hogy áramkimaradás vagy a B egység hiányában a rendszer elzárja a vizet és elzárva is tartsa.
